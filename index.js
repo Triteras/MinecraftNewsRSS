@@ -4,7 +4,7 @@ const express = require("express");
 
 const app = express();
 
-const PORT = 25545;
+const PORT = 8080;
 
 app.get("/news", (request, response) => {
   axios.get("https://launchercontent.mojang.com/news.json").then(result => {
