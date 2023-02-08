@@ -41,4 +41,4 @@ app.get("/news", (request, response) => {
 });
 
 app.listen(PORT);
-console.log(chalk.green(`Server is online and running on port: ${PORT}`));
+console.log(`Server is online and running on port: ${PORT}`);
