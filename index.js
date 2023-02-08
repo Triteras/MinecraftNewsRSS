@@ -1,7 +1,6 @@
-import axios from "axios";
-import { json2xml } from "xml-js";
-import express from "express";
-import chalk from "chalk";
+const axios = require("axios");
+const json2xml = require("xml-js").json2xml;
+const express = require("express");
 
 const app = express();
 
