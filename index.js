@@ -5,7 +5,7 @@ import chalk from "chalk";
 
 const app = express();
 
-const PORT = 8080;
+const PORT = 25545;
 
 app.get("/news", (request, response) => {
   axios.get("https://launchercontent.mojang.com/news.json").then((result) => {
